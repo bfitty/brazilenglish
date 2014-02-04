@@ -7,7 +7,9 @@
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
 
+</style> 
 </head>
 <body>
 	<%= render 'layouts/header' %>
@@ -16,4 +18,22 @@
 		<%= yield %>
 	</div>
 </body>
+
+<footer>
+  <div class="container">
+  	
+    <ul class="nav">
+      <li><a href="https://www.iubenda.com/privacy-policy/735465" class="iubenda-black no-brand iubenda-embed" title="Privacy Policy">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src = "https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+</li>
+      <li>Made in NYC</li>
+      <li>&copy; 2013 One Month</li>
+    </ul>
+    <div class="site-badges">
+      <a href="//mixpanel.com/f/partner"><img src="//mixpanel.com/site_media/images/partner/badge_light.png" alt="Mobile Analytics" /></a>
+
+    </div>
+  </div>
+
+
+</footer>
 </html>
